@@ -1,5 +1,5 @@
 CREATE DATABASE triagem;
-USE triagem,
+USE triagem;
 
 CREATE TABLE pacientes (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -19,6 +19,6 @@ CREATE TABLE pacientes (
     temperatura VARCHAR (20),
     frequenciaCardiaca VARCHAR (20),
     saturacao VARCHAR (20),
-    obeservacoes TEXT,
+    observacoes TEXT,
     data_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
